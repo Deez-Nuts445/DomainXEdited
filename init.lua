@@ -4935,13 +4935,6 @@ coroutine.wrap(function()
 end)()
 
 
-
-coroutine.wrap(function()
-	wait(1000)
-	Toast("Enjoying DomainX? Let us know in our Discord!")
-	Toast(DiscordLink,"GothamBold")
-end)()
-
 while true do
 	wait(0.2)
 	if Domain:FindFirstChild("Main") == false then
